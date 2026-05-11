@@ -18,3 +18,5 @@ Le stime sono condotte con il software Stata su un pannello di osservazioni rife
 ## Report Completo
 
 Per l'analisi metodologica completa, il framework teorico e le tabelle di regressione dettagliate, consultare il file "Analisi_Democrazia_Reddito.pdf" presente in questa repository.
+
+I contenuti di questa repository sono stati realizzati a scopo accademico e di portfolio. Tutti i diritti riservati.
