@@ -1,0 +1,46 @@
+{\rtf1\fs24
+\pard\qc
+L'EFFETTO DELLA RICCHEZZA SULLA RICHIESTA DI DEMOCRAZIA\par
+{\i Analisi empirica della relazione tra il PIL pro capite e indice di democrazia:} \par
+{\i Dalle stime OLS ai modelli panel con effetti fissi e controlli socio-demografici} \par
+\trowd\trgaph75\trleft-75\intbl\trqc\clbrdrt\brdrs\cellx2736\clbrdrt\brdrs\cellx4176\clbrdrt\brdrs\cellx5616\clbrdrt\brdrs\cellx6912\clbrdrt\brdrs\cellx8208\clbrdrt\brdrs\cellx9360\clbrdrt\brdrs\cellx10512\clbrdrt\brdrs\cellx11664
+\ql \cell\qc (1)\cell\qc (2)\cell\qc (3)\cell\qc (4)\cell\qc (5)\cell\qc (6)\cell\qc (7)\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx2736\cellx4176\cellx5616\cellx6912\cellx8208\cellx9360\cellx10512\cellx11664
+\trowd\trgaph75\trleft-75\trqc\clbrdrb\brdrs\cellx2736\clbrdrb\brdrs\cellx4176\clbrdrb\brdrs\cellx5616\clbrdrb\brdrs\cellx6912\clbrdrb\brdrs\cellx8208\clbrdrb\brdrs\cellx9360\clbrdrb\brdrs\cellx10512\clbrdrb\brdrs\cellx11664
+\ql VARIABLES\cell\qc OLS CE\cell\qc OLS SE\cell\qc FCE\cell\qc FCE/AZ\cell\qc FCTE\cell\qc FCTE D1\cell\qc FCTE D2\cell\row
+\trowd\trgaph75\trleft-75\trqc\cellx2736\cellx4176\cellx5616\cellx6912\cellx8208\cellx9360\cellx10512\cellx11664
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql Log PIL pro capite\cell\qc 0.236***\cell\qc 0.236***\cell\qc 0.084***\cell\qc 0.084***\cell\qc 0.054\cell\qc 0.012\cell\qc 0.025\cell\row
+\ql \cell\qc (0.012)\cell\qc (0.007)\cell\qc (0.032)\cell\qc (0.032)\cell\qc (0.042)\cell\qc (0.053)\cell\qc (0.054)\cell\row
+\ql Log popolazione\cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc -0.120\cell\qc -0.069\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc (0.115)\cell\qc (0.125)\cell\row
+\ql Anni educazione\cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc -0.002\cell\qc -0.000\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc (0.024)\cell\qc (0.023)\cell\row
+\ql %Pop.età 0-14\cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc -0.605\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc (1.296)\cell\row
+\ql %Pop.età 15-29\cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc -1.131\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc (1.299)\cell\row
+\ql %Pop.età 30-44\cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc -3.087*\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc (1.761)\cell\row
+\ql %Pop.età 45-59\cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc -0.308\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc (1.758)\cell\row
+\ql age_median\cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc -0.014\cell\qc \cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc (0.009)\cell\qc \cell\row
+\ql Constant\cell\qc -1.355***\cell\qc -1.355***\cell\qc -0.115\cell\qc -0.115\cell\qc 0.180\cell\qc 1.878\cell\qc 2.097\cell\row
+\ql \cell\qc (0.100)\cell\qc (0.061)\cell\qc (0.257)\cell\qc (0.257)\cell\qc (0.327)\cell\qc (1.201)\cell\qc (1.267)\cell\row
+\ql \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\qc \cell\row
+\ql FE Stato\cell\qc NO\cell\qc NO\cell\qc SI\cell\qc SI\cell\qc SI\cell\qc SI\cell\qc SI\cell\row
+\ql FE Tempo\cell\qc NO\cell\qc NO\cell\qc NO\cell\qc NO\cell\qc SI\cell\qc SI\cell\qc SI\cell\row
+\ql Clustered SE\cell\qc SI\cell\qc NO\cell\qc SI\cell\qc SI\cell\qc SI\cell\qc SI\cell\qc SI\cell\row
+\ql Controlli\cell\qc NO\cell\qc NO\cell\qc NO\cell\qc NO\cell\qc NO\cell\qc SI\cell\qc SI\cell\row
+\ql Test F\cell\qc 396.402\cell\qc 1100.575\cell\qc 7.056\cell\qc 7.055\cell\qc 5.647\cell\qc 3.465\cell\qc 3.215\cell\row
+\ql P-value F\cell\qc .\cell\qc .\cell\qc 0.009\cell\qc 0.009\cell\qc 0.000\cell\qc 0.000\cell\qc 0.000\cell\row
+\ql Osservazioni\cell\qc 958\cell\qc 958\cell\qc 958\cell\qc 957\cell\qc 958\cell\qc 679\cell\qc 680\cell\row
+\ql R^2\cell\qc 0.438\cell\qc 0.438\cell\qc 0.734\cell\qc 0.734\cell\qc 0.761\cell\qc 0.728\cell\qc 0.734\cell\row
+\ql R^2 Agg.\cell\qc 0.438\cell\qc 0.438\cell\qc 0.685\cell\qc 0.685\cell\qc 0.714\cell\qc 0.679\cell\qc 0.683\cell\row
+\trowd\trgaph75\trleft-75\trqc\trbrdrb\brdrs\clbrdrb\brdrs\cellx2736\clbrdrb\brdrs\cellx4176\clbrdrb\brdrs\cellx5616\clbrdrb\brdrs\cellx6912\clbrdrb\brdrs\cellx8208\clbrdrb\brdrs\cellx9360\clbrdrb\brdrs\cellx10512\clbrdrb\brdrs\cellx11664
+\ql Number of code\cell\qc \cell\qc \cell\qc 150\cell\qc 149\cell\qc 150\cell\qc 95\cell\qc 96\cell\row
+\pard\qc
+Robust standard errors in parentheses\par
+*** p<0.01, ** p<0.05, * p<0.1\par
+}

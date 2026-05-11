@@ -1,0 +1,37 @@
+L'EFFETTO DELLA RICCHEZZA SULLA RICHIESTA DI DEMOCRAZIA								
+{\i Analisi empirica della relazione tra il PIL pro capite e indice di democrazia:} 								
+{\i Dalle stime OLS ai modelli panel con effetti fissi e controlli socio-demografici} 								
+		(1)	(2)	(3)	(4)	(5)	(6)	(7)
+VARIABLES	LABELS	OLS CE	OLS SE	FCE	FCE/AZ	FCTE	FCTE D1	FCTE D2
+								
+log_gdppc	Log PIL pro capite	0.236***	0.236***	0.084***	0.084***	0.054	0.012	0.025
+		(0.012)	(0.007)	(0.032)	(0.032)	(0.042)	(0.053)	(0.054)
+log_pop	Log popolazione						-0.120	-0.069
+							(0.115)	(0.125)
+educ	Anni educazione						-0.002	-0.000
+							(0.024)	(0.023)
+age_1	%Pop.età 0-14							-0.605
+								(1.296)
+age_2	%Pop.età 15-29							-1.131
+								(1.299)
+age_3	%Pop.età 30-44							-3.087*
+								(1.761)
+age_4	%Pop.età 45-59							-0.308
+								(1.758)
+age_median	age_median						-0.014	
+							(0.009)	
+Constant	Constant	-1.355***	-1.355***	-0.115	-0.115	0.180	1.878	2.097
+		(0.100)	(0.061)	(0.257)	(0.257)	(0.327)	(1.201)	(1.267)
+								
+FE Stato		NO	NO	SI	SI	SI	SI	SI
+FE Tempo		NO	NO	NO	NO	SI	SI	SI
+Clustered SE		SI	NO	SI	SI	SI	SI	SI
+Controlli		NO	NO	NO	NO	NO	SI	SI
+Test F		396.402	1100.575	7.056	7.055	5.647	3.465	3.215
+P-value F		.	.	0.009	0.009	0.000	0.000	0.000
+Osservazioni		958	958	958	957	958	679	680
+R^2		0.438	0.438	0.734	0.734	0.761	0.728	0.734
+R^2 Agg.		0.438	0.438	0.685	0.685	0.714	0.679	0.683
+Number of code				150	149	150	95	96
+Robust standard errors in parentheses								
+*** p<0.01, ** p<0.05, * p<0.1								
